@@ -3,3 +3,6 @@ scikit-learn
 dagshub
 mlflow
 dvc-s3
+pandas
+pyyaml
+python-dotenv

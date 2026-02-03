@@ -1,0 +1,14 @@
+artifact_uri: file:///Applications/GitHub/DiabetesRisk/diabetes-risk-pipeline/mlruns/296605945858916771/f96711560b45432da73303ef6dcc6918/artifacts
+end_time: 1770151306133
+entry_point_name: ''
+experiment_id: '296605945858916771'
+lifecycle_stage: active
+run_id: f96711560b45432da73303ef6dcc6918
+run_name: debonair-sheep-369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770151299957
+status: 3
+tags: []
+user_id: andreeamanole

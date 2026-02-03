@@ -19,13 +19,12 @@ stages:
       - tuning
     outs:
       - models/model.pkl
-      - data/processed/test_data.csv
 
   evaluate:
     cmd: python src/evaluate.py
     deps:
       - models/model.pkl
-      - data/processed/test_data.csv
+      - data/processed/data.csv
       - src/evaluate.py
     params:
       - evaluate

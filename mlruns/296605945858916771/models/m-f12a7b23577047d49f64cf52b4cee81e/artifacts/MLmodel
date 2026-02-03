@@ -1,0 +1,33 @@
+artifact_path: file:///Applications/GitHub/DiabetesRisk/diabetes-risk-pipeline/mlruns/296605945858916771/models/m-f12a7b23577047d49f64cf52b4cee81e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-f12a7b23577047d49f64cf52b4cee81e
+model_size_bytes: 580098
+model_uuid: m-f12a7b23577047d49f64cf52b4cee81e
+prompts: null
+run_id: f96711560b45432da73303ef6dcc6918
+signature:
+  inputs: '[{"type": "long", "name": "6", "required": true}, {"type": "long", "name":
+    "148", "required": true}, {"type": "long", "name": "72", "required": true}, {"type":
+    "long", "name": "35", "required": true}, {"type": "long", "name": "0", "required":
+    true}, {"type": "double", "name": "33.6", "required": true}, {"type": "double",
+    "name": "0.627", "required": true}, {"type": "long", "name": "50", "required":
+    true}]'
+  outputs: '[{"type": "long", "name": "1", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-03 20:41:43.689761'

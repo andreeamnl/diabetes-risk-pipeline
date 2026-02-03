@@ -1,0 +1,10 @@
+artifact_location: file:///Applications/GitHub/DiabetesRisk/diabetes-risk-pipeline/mlruns/296605945858916771/models/m-f12a7b23577047d49f64cf52b4cee81e/artifacts
+creation_timestamp: 1770151303679
+experiment_id: '296605945858916771'
+last_updated_timestamp: 1770151306108
+model_id: m-f12a7b23577047d49f64cf52b4cee81e
+model_type: null
+name: model
+source_run_id: f96711560b45432da73303ef6dcc6918
+status: 2
+status_message: null
